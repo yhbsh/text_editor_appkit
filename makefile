@@ -1,2 +1,2 @@
 main: main.m
-	cc -O3 main.m -o main -framework appkit
+	cc -O3 *.m -o main -framework appkit

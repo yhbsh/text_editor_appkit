@@ -1,0 +1,9 @@
+AppDelegate	app_delegate.h	/^@interface AppDelegate : NSObject <NSApplicationDe/
+MainTextView	main_text_view.h	/^@interface MainTextView : NSView$/
+MainWindow	main_window.h	/^@interface MainWindow : NSWindow$/
+Mmain	main.m	/^int main(int argc, const char *argv[]) {$/
+applicationDidFinishLaunching	app_delegate.m	/^- (void)applicationDidFinishLaunching:(NSNotificat/
+applicationShouldTerminateAfterLastWindowClosed	app_delegate.m	/^- (BOOL)applicationShouldTerminateAfterLastWindowC/
+drawRect	main_text_view.m	/^- (void)drawRect:(NSRect)dirtyRect {$/
+initWithContentRect	main_window.m	/^- (instancetype)initWithContentRect:(NSRect)conten/
+keyDown	main_window.m	/^- (void)keyDown:(NSEvent *)event {$/
